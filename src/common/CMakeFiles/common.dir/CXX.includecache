@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ast.hpp
+syntax_tree.h
+../include/syntax_tree.h
+vector
+-
+memory
+-
+string
+-
+
+../include/logging.hpp
+iostream
+-
+sstream
+-
+cstdlib
+-
+
+../include/syntax_tree.h
+stdio.h
+-
+
+/labs/src/common/ast.cpp
+ast.hpp
+/labs/src/common/ast.hpp
+cstring
+-
+stack
+-
+iostream
+-
+
+/labs/src/common/logging.cpp
+logging.hpp
+/labs/src/common/logging.hpp
+
